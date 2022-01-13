@@ -21,6 +21,7 @@ public class User implements Serializable {
 
 	// modif 1 pour git
 	// modif 2 pour git
+	// modif 3 pour git
 	
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
