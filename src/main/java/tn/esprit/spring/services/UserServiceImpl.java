@@ -9,6 +9,8 @@ import org.springframework.stereotype.Service;
 
 import tn.esprit.spring.entities.User;
 import tn.esprit.spring.repository.UserRepository;
+import tn.esprit.spring.services.IUserService;
+
 
 @Service
 public class UserServiceImpl implements IUserService {
@@ -86,7 +88,7 @@ public class UserServiceImpl implements IUserService {
 		return u;
 	}
 
-	@Override
+	/*@Override
 	public void deleteUser(String id) {
 
 		try {
@@ -98,6 +100,7 @@ public class UserServiceImpl implements IUserService {
 			l.error("Out of Method deleteUser with Errors : " + e);
 		}
 
-	}
+	}*/
+
 
 }
