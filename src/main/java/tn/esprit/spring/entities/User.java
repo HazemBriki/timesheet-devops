@@ -20,6 +20,7 @@ public class User implements Serializable {
 	private static final long serialVersionUID = 1L;
 
 	// modif 1 pour git
+	// modif 2 pour git
 	
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
